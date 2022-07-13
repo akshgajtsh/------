@@ -1,0 +1,57 @@
+.red{
+    width: 400px;
+    height: 100px;
+    background-color: #ff0000;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.green{
+    width: 150px;
+    height: 250px;
+    background-color: #00ff51;
+    float: left;
+}
+
+.a{
+    float: left;
+}
+
+.b{
+    float: left;
+}
+
+.magenta{
+    width: 150px;
+    height: 50px;
+    background-color: #cc00db;
+}
+
+.blue{
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+}
+
+.orange{
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    float: left;
+}
+
+.brown{
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+
+.yellow{
+    width: 400px;
+    height: 100px;
+    background-color: #fff700;
+}
