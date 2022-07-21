@@ -1,0 +1,66 @@
+.red{
+    width: 400px;
+    height: 100px;
+    background-color: #ff0000;
+    
+}
+
+.nav{
+    position: relative;
+    top: 20px;
+    right: 20px;
+    width: 150px;
+    height: 60px;
+    background-color: #ffff;
+    float: right;
+    
+    padding-left: 10px;
+}
+
+.purple{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    
+    margin: 10px 10px 10px 0;
+    float: left;
+}
+
+.green{
+    width: 150px;
+    height: 250px;
+    background-color: #00ff51;
+    float: left;
+}
+
+.brown{
+    height: 250px;
+    width: 250px;
+    background-color: #8c2727;
+    float: left;
+}
+
+.oranges{
+    margin: 40px 0 0 40px;
+    padding: 0;
+}
+
+.orange{
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: solid 5px #ffff;
+    margin: 10px;
+}
+
+.yellow{
+    width: 400px;
+    height: 100px;
+    background: #fff700;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
